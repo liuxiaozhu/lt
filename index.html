@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>博客首页</title>
+    <link rel="stylesheet" href="http://apps.bdimg.com/libs/bootstrap/3.3.0//css/bootstrap.min.css">
+    <link rel="stylesheet" href="index.css">
+    <script src="http://apps.bdimg.com/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script src="http://apps.bdimg.com/libs/bootstrap/3.3.0/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+    <!-- start : demo -->
+    <!-- 定义导航条的部分 -->
+    <!-- navbar-inverse 反色的导航条 -->
+    <!-- navbar-static-top 圆角变为方角 -->
+    <nav class="navbar navbar-default navbar-static-top lt-header">
+        <!-- container容器，左右留有余地 -->
+        <div class="container">
+            <div class="navbar-header">
+                <div>
+                    <img src="logo-l.png" class="logo">
+                </div>
+                <!--
+                    在浏览器的宽度很小时，buttion出现。
+                    图案为方框内有三道杠。
+                    data-target="#TaoistsNavBar" 与 div id="TaoistsNavBar" 相对应
+                    -->
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+                    data-target="#TaoistsNavBar" aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <!--
+                        icon-bar有一个，那个图标就有一道杠。
+                        这里有三个，那么图标就有三道杠
+                      -->
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+            </div>
+
+            <div class="collapse navbar-collapse" id="TaoistsNavBar">
+                <ul class="nav navbar-nav nav-text">
+                    <li><a href="#">谷部</a></li>
+                    <li><a href="#">稻秆</a></li>
+                    <li><a href="#">豆油</a></li>
+                    <li><a href="#">米酒</a></li>
+                    <li><a href="#">烧酒</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+</body>
+
+</html>

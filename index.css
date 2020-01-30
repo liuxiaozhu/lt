@@ -1,0 +1,12 @@
+.lt-header{
+    background-color: #ffffff;
+    height: 78px;
+    padding-top: 14px;
+    padding-bottom: 14px;
+}
+.logo {
+    height: 50px;
+}
+.nav-text{
+    float: right;
+}
