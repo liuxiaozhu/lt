@@ -3,6 +3,8 @@
     height: 78px;
     padding-top: 14px;
     padding-bottom: 14px;
+    margin-bottom: 0px;
+    border: 0px;
 }
 .logo {
     height: 50px;
@@ -10,4 +12,39 @@
 .nav-text{
     float: right;
     font-size: 16px;
+}
+.fuwu{
+    padding-top: 80px;
+}
+.card{
+    background-color: #ffffff;
+    display: inline-block;
+    padding: 10px;
+    box-shadow: 0.2em 0 0.6em #cccccc;
+    border-radius: .3em;
+    overflow: hidden;
+    max-width: 20em;
+}
+.img-responsive{
+    display: inline-block;  
+    height: auto;  
+    max-width: 100%;
+}
+.jiaolian{
+    padding-top: 80px;
+}
+.jl-card{
+    background-color: #ffffff;
+    display: inline-block;
+    padding: 10px;
+    overflow: hidden;
+    max-width: 20em;
+}
+.jl-img{
+    height: 100px;
+    width: 100px;
+    margin-bottom: 10px;
+}
+.jl-text{
+    font-size: 18px;
 }
