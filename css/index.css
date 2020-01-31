@@ -15,6 +15,7 @@
 }
 .fuwu{
     padding-top: 80px;
+    margin-bottom: 40px;
 }
 .card{
     background-color: #ffffff;
@@ -25,26 +26,40 @@
     overflow: hidden;
     max-width: 20em;
 }
-.img-responsive{
-    display: inline-block;  
-    height: auto;  
-    max-width: 100%;
-}
 .jiaolian{
-    padding-top: 80px;
+    background-color: #f3f3f3;
+    padding-top: 40px;
+    padding-bottom: 20px;
 }
 .jl-card{
-    background-color: #ffffff;
+    background-color: #f3f3f3;
     display: inline-block;
     padding: 10px;
     overflow: hidden;
     max-width: 20em;
+    margin-bottom: 20px;
 }
 .jl-img{
-    height: 100px;
-    width: 100px;
-    margin-bottom: 10px;
+    height: 140px;
+    width: 140px;
+    margin-bottom: 20px;
+    box-shadow: 0.2em 0 0.6em #cccccc;
 }
 .jl-text{
-    font-size: 18px;
+    font-size: 20px;
+    color: #545454;
+}
+.food{
+    margin-top: 40px;
+}
+.food-text{
+    background-color: #ffcc00;
+    display: inline-block;
+    height: 300px;
+    padding-top: 90px;
+    color: #ffffff;
+}
+.food-img{
+    height:100px;
+    width: 100px;
 }
