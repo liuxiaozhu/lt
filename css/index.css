@@ -18,6 +18,7 @@
     margin-bottom: 40px;
 }
 .card{
+    color: #545454;
     background-color: #ffffff;
     display: inline-block;
     padding: 10px;
@@ -27,12 +28,12 @@
     max-width: 20em;
 }
 .jiaolian{
-    background-color: #f3f3f3;
+    /* background-color: #f3f3f3; */
     padding-top: 40px;
     padding-bottom: 20px;
 }
 .jl-card{
-    background-color: #f3f3f3;
+    /* background-color: #f3f3f3; */
     display: inline-block;
     padding: 10px;
     overflow: hidden;
@@ -50,13 +51,15 @@
     color: #545454;
 }
 .food{
-    margin-top: 40px;
+    margin-top: 80px;
+    padding-top: 20px;
+    margin-bottom: 40px;
 }
 .food-text{
-    background-color: #ffcc00;
+    background-color: #ffd700;
     display: inline-block;
-    height: 300px;
-    padding-top: 90px;
+    height: 400px;
+    padding-top: 120px;
     color: #ffffff;
 }
 .food-img{

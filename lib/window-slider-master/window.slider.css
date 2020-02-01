@@ -1,35 +1,20 @@
 .window-slider{
+    width: 100%;
+    height: 400px;
     position: relative;
-    left: 50%;
-    background-color: #000;
-    border-top-left-radius: 15px;
-    border-top-right-radius: 15px;
-    border-bottom-left-radius: 15px;
-    border-bottom-right-radius: 15px;
+    background-color: #fff;
 }
 .tl-window{
-    border: solid 5px #000;
-    border-right: solid 2.5px #000;
-    border-bottom: solid 2.5px #000;
-    border-top-left-radius: 15px;
+    height: 200px;
 }
 .tr-window{
-    border: solid 5px #000;
-    border-left: solid 2.5px #000;
-    border-bottom: solid 2.5px #000;
-    border-top-right-radius: 15px;
+    height: 200px;
 }
 .bl-window{
-    border: solid 5px #000;
-    border-right: solid 2.5px #000;
-    border-top: solid 2.5px #000;
-    border-bottom-left-radius: 15px;
+    height: 200px;
 }
 .br-window{
-    border: solid 5px #000;
-    border-left: solid 2.5px #000;
-    border-top: solid 2.5px #000;
-    border-bottom-right-radius: 15px;
+    height: 200px;
 }
 .window-slider > div:nth-child(odd){
     float: left;
@@ -38,10 +23,14 @@
     float: right;
 }
 .window-slider > div{
+    width: 50%;
+    height: 200px;
     position:relative;
     overflow: hidden;
 }
 .window-slider > div > img{
+    width: 100%;
+    height: 200px;
     position: relative;
 }
 .window-slider > div > img:nth-child(n+2){

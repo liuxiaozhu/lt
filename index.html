@@ -84,7 +84,8 @@
                     <p data-animation="animated lightSpeedIn">Make Bootstrap Better together.</p>
                     <a href="#" target="_blank" class="btn btn-default" data-animation="animated fadeInUp">select
                         one</a>
-                    <a href="#" target="_blank" class="btn btn-primary" data-animation="animated fadeInDown">select
+                    <a href="#" target="_blank" class="btn btn-primary" style="background-color: #ffd700;"
+                        data-animation="animated fadeInDown">select
                         two</a>
                 </div>
             </div>
@@ -107,7 +108,7 @@
                             </p>
                             <a href="#" target="_blank" class="btn btn-default"
                                 data-animation="animated fadeInLeft">select one</a>
-                            <a href="#" target="_blank" class="btn btn-primary"
+                            <a href="#" target="_blank" class="btn btn-primary" style="background-color: #ffd700;"
                                 data-animation="animated fadeInRight">select two</a>
                         </div>
                     </div>
@@ -128,7 +129,8 @@
                     </p>
                     <a href="#" target="_blank" class="btn btn-default" data-animation="animated fadeInLeft">select
                         one</a>
-                    <a href="#" target="_blank" class="btn btn-primary" data-animation="animated fadeInRight">select
+                    <a href="#" target="_blank" class="btn btn-primary" style="background-color: #ffd700;"
+                        data-animation="animated fadeInRight">select
                         two</a>
                 </div>
             </div>
@@ -190,6 +192,48 @@
         </div>
 
     </div>
+
+    <div class="food">
+        <div class="container" style="padding: 0%;">
+            <div class="row">
+                <div class="col-md-6 food-text animate-box text-center">
+                    <h3>提供项目全生命周期的管理与服务</h3>
+                    <p style="font-size:16px;padding-top: 10px;">
+                        我们一直致力于提供更好的的产品与服务 满足您的多样化需求
+                    </p>
+                </div>
+                <div class="col-md-6" style="height: 400px;padding: 0%;">
+                    <div id="slider-1" class="window-slider">
+                        <!-- TOP LEFT SLIDER -->
+                        <div class="tl-window ">
+                            <img src="images/food1.jpg">
+                            <img src="images/food2.jpg">
+                        </div>
+
+                        <!-- TOP RIGHT SLIDER -->
+                        <div class="tr-window">
+                            <img src="images/food3.jpg">
+                            <img src="images/food4.jpg">
+                        </div>
+
+                        <!-- BOTTOM LEFT SLIDER -->
+                        <div class="bl-window">
+                            <img src="images/food5.jpg">
+                            <img src="images/food6.jpg">
+                        </div>
+
+                        <!-- BOTTOM RIGHT SLIDER -->
+                        <div class="br-window">
+                            <img src="images/food7.jpg">
+                            <img src="images/food1.jpg">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
 
     <div class="jiaolian">
         <div class="container">
@@ -268,50 +312,11 @@
         </div>
     </div>
 
-    <div class="food">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-6 food-text animate-box text-center">
-                    <h3>提供项目全生命周期的管理与服务</h3>
-                    <p style="font-size:16px;padding-top: 10px;">
-                        我们一直致力于提供更好的的产品与服务 满足您的多样化需求
-                    </p>
-                </div>
-                <div class="col-md-6 animate-box text-center">
-                    <div id="slider-1" class="window-slider  food-img">
-                        <!-- TOP LEFT SLIDER -->
-                        <div class="tl-window ">
-                            <img src="images/food1.jpg" class="img-responsive" >
-                            <img src="images/food2.jpg" class="img-responsive">
-                        </div>
-
-                        <!-- TOP RIGHT SLIDER -->
-                        <div class="tr-window">
-                            <img src="images/food3.jpg" class="img-responsive">
-                            <img src="images/food4.jpg" class="img-responsive">
-                        </div>
-
-                        <!-- BOTTOM LEFT SLIDER -->
-                        <div class="bl-window">
-                            <img src="images/food5.jpg" class="img-responsive">
-                            <img src="images/food6.jpg" class="img-responsive">
-                        </div>
-
-                        <!-- BOTTOM RIGHT SLIDER -->
-                        <div class="br-window">
-                            <img src="images/food7.jpg" class="img-responsive">
-                            <img src="images/food1.jpg" class="img-responsive">
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-    </div>
 
 
 
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.touchswipe/1.6.18/jquery.touchSwipe.min.js"></script>
 
@@ -325,10 +330,10 @@
             setInterval(() => $(".carousel").carousel('next'), 1000 * 15);
             $('#slider-1').windowSlider({
                 startPosition: 1,
-                interval: 3000,
-                fadeOutSpeed: 400,
+                interval: 5000,
+                fadeOutSpeed: 1500,
                 fadeInSpeed: 1500,
-                cycle: 'standard'
+                cycle: 'clockwise'
             });
         }); 
     </script>
