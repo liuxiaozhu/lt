@@ -21,19 +21,16 @@
     color: #545454;
     background-color: #ffffff;
     display: inline-block;
-    padding: 10px;
     box-shadow: 0.2em 0 0.6em #cccccc;
     border-radius: .3em;
     overflow: hidden;
     max-width: 20em;
 }
 .jiaolian{
-    /* background-color: #f3f3f3; */
     padding-top: 40px;
     padding-bottom: 20px;
 }
 .jl-card{
-    /* background-color: #f3f3f3; */
     display: inline-block;
     padding: 10px;
     overflow: hidden;
@@ -62,12 +59,11 @@
     padding-top: 120px;
     color: #ffffff;
 }
-.food-img{
-    height:100px;
-    width: 100px;
-}
 .foot{
     margin-top: 20px;
     margin-bottom: 100px;
-
+}
+.foot-text{
+    font-size: 12px;
+    color: grey;
 }
